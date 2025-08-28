@@ -1,12 +1,4 @@
-// Predefined Trello element selector mapping
-const ELEMENT_SELECTORS = {
-  islandNav: [
-    '#island-nav'
-  ],
-  cardNav: [
-    'div[data-focus-lock="cardback"] > div > div > div > nav'
-  ]
-};
+// Constants are imported from constants.js
 
 // Initialize
 function initializeContentScript() {

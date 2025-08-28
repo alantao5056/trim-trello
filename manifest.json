@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["https://trello.com/*"],
-      "js": ["content.js"],
+      "js": ["constants.js", "content.js"],
       "run_at": "document_end"
     }
   ],
